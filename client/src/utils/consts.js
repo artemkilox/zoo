@@ -1,0 +1,6 @@
+export const MAIN_PAGE_ROUTE = '/'
+export const ABOUT_ROUTE = '/about'
+export const ANIMAL_ROUTE = '/animal'
+export const INSTRUCTION_ROUTE = '/instruction'
+export const MAP_ROUTE = '/map'
+export const SECTION_ROUTE = '/section'
