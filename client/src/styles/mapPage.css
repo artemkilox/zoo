@@ -1,0 +1,31 @@
+.map-container {
+  display: flex;
+}
+.map-container .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 600px;
+  padding: 0 40px 40px;
+  height: 100vh;
+}
+.map-container .sidebar .heading {
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 62px;
+  color: #01133B;
+  text-transform: uppercase;
+  line-height: 72px;
+}
+.map-container .sidebar .caption {
+  font-family: "Roboto Medium";
+  font-size: 18px;
+  color: rgba(1, 19, 59, 0.6);
+}
+.map-container .sidebar .btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/*# sourceMappingURL=mapPage.css.map */

@@ -1,0 +1,78 @@
+.about-wrapper{
+  padding: 0 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  .about-project{
+    .poject-name{
+      font-family: "IBM Plex Mono SemiBold";
+      font-size: 62px;
+      line-height: 72px;
+      color: #01133B;
+      text-transform: uppercase;
+    }
+    .specials{
+      font-family: "IBM Plex Mono SemiBold";
+      font-size: 30px;
+      line-height: 62px;
+      color: rgba(1, 19, 59, 0.6);
+      text-transform: uppercase;
+    }
+  }
+
+  .separator{
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg, rgba(96,74,244,1) 0%, rgba(72,242,250,1) 100%);
+    border-radius: 12px;
+
+    .point-wrapper{
+      width: 30%;
+      color: white;
+      .value{
+        font-family: "IBM Plex Mono SemiBold";
+        font-size: 52px;
+        line-height: 62px;
+      }
+      .description{
+        font-family: "Roboto Medium";
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+  .caption{
+    font-family: "IBM Plex Mono SemiBold";
+    font-size: 32px;
+    line-height: 62px;
+    color: #01133B;
+    text-transform: uppercase;
+  }
+  .information-block{
+    color: #01133B;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .text{
+      font-family: "Roboto Regular";
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .list-title{
+      font-family: "Roboto Medium";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .list{
+      padding-left: 30px;
+      .list-item{
+        font-family: "Roboto Regular";
+        font-size: 24px;
+        line-height: 34px;
+      }
+    }
+  }
+}

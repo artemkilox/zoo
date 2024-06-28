@@ -1,0 +1,12 @@
+.sound-btn {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(96, 74, 244) 0%, rgb(72, 242, 250) 100%);
+  border: none;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=soundBtn.css.map */

@@ -1,0 +1,19 @@
+.instruction-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+}
+.instruction-btn .instruction-btn-icon {
+  height: 50px;
+  width: 50px;
+}
+.instruction-btn .instruction-btn-text {
+  margin-left: 20px;
+  text-align: left;
+  font-family: "Roboto Medium";
+  font-size: 20px;
+  color: #01133B;
+}
+
+/*# sourceMappingURL=instructionBtn.css.map */

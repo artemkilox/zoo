@@ -1,0 +1,59 @@
+.animal-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0 40px 70px;
+}
+.animal-page-wrapper .animal-card {
+  border-radius: 26px;
+  background: #F1F4F9;
+  padding: 80px;
+}
+.animal-page-wrapper .animal-card .animal-img {
+  height: 508px;
+  width: 508px;
+  border-radius: 26px;
+}
+.animal-page-wrapper .animal-card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.animal-page-wrapper .animal-card .card-header .description .animal-name {
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 52px;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+.animal-page-wrapper .animal-card .card-header .description .caption {
+  font-family: "Roboto Medium";
+  font-size: 32px;
+  line-height: 72px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.animal-page-wrapper .animal-card .card-main {
+  margin-top: 60px;
+  display: flex;
+}
+.animal-page-wrapper .animal-card .card-main .information {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.animal-page-wrapper .animal-card .card-main .information .text {
+  font-family: "Roboto Regular";
+  font-size: 18px;
+  color: #1E1E1E;
+  line-height: 30px;
+}
+.animal-page-wrapper .animal-card .card-main .information .text span {
+  font-weight: bold;
+}
+.animal-page-wrapper .animal-card .card-main .information .bold {
+  font-family: "Roboto Medium";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/*# sourceMappingURL=animalPage.css.map */

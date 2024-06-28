@@ -1,0 +1,66 @@
+.instruction-wrapper {
+  padding: 0 40px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  color: #01133B;
+}
+.instruction-wrapper .instruction-caption {
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 62px;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+.instruction-wrapper .cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.instruction-wrapper .cards-wrapper .instruction-card {
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 60px 40px;
+  background: #F1F4F9;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .circle {
+  height: 32px;
+  width: 32px;
+  background: linear-gradient(45deg, rgb(96, 74, 244) 0%, rgb(72, 242, 250) 100%);
+  border-radius: 50%;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-caption {
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 50px;
+  line-height: 62px;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-text .sep-line {
+  width: 100%;
+  border-bottom: 1px solid rgba(1, 19, 59, 0.1);
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-text .list-wrapper {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-text .list-wrapper .sep-line {
+  margin-left: -30px;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-text .list-wrapper .list-item {
+  font-family: "Roboto Regular";
+  font-size: 24px;
+}
+.instruction-wrapper .cards-wrapper .instruction-card .card-text .list-caption {
+  font-family: "Roboto Regular";
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=instruction.css.map */

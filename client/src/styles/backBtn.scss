@@ -1,0 +1,18 @@
+.back-btn{
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+
+  .back-btn-icon{
+    height: 50px;
+    width: 50px;
+  }
+  .back-btn-text{
+    margin-left: 20px;
+    text-align: left;
+    font-family: "Roboto Medium";
+    font-size: 20px;
+    color: #01133B;
+  }
+}

@@ -23,7 +23,7 @@ export const publicRoutes = [
         Component: About
     },
     {
-        path: ANIMAL_ROUTE,
+        path: ANIMAL_ROUTE + "/:id",
         Component: AnimalPage
     },
     {
@@ -35,7 +35,7 @@ export const publicRoutes = [
         Component: Map
     },
     {
-        path: SECTION_ROUTE,
+        path: SECTION_ROUTE + "/:id",
         Component: SectionPage
     },
 ]

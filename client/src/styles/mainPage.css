@@ -1,0 +1,28 @@
+.main-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+  height: 100vh;
+  padding: 0 40px;
+}
+.main-page-container header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-page-container header .logo-name {
+  display: flex;
+}
+.main-page-container header .logo-name .name-text {
+  padding-left: 40px;
+  text-transform: uppercase;
+  color: #01133B;
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 62px;
+}
+.main-page-container .btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=mainPage.css.map */

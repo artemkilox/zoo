@@ -1,0 +1,55 @@
+.section-page {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0 40px 70px;
+}
+.section-page .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-page .section-header .section-name {
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 62px;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+.section-page .section-header .empty {
+  width: 130px;
+}
+.section-page .animals-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.section-page .animals-wrapper .animal-card {
+  height: 585px;
+  width: 585px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-page .animals-wrapper .animal-card .card-img {
+  width: 100%;
+  height: 485px;
+  object-fit: cover;
+  border-radius: 24px 24px 0 0;
+}
+.section-page .animals-wrapper .animal-card .bottom-bar {
+  z-index: 999;
+  background: #F1F4F9;
+  border-radius: 0 0 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 100px;
+}
+.section-page .animals-wrapper .animal-card .bottom-bar .animal-name {
+  font-family: "IBM Plex Mono SemiBold";
+  font-size: 38px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=sectionPage.css.map */

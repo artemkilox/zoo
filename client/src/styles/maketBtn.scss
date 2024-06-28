@@ -1,0 +1,24 @@
+.maket-btn{
+  width: 500px;
+  height: 128px;
+  background: #F1F4F9;
+  border-radius: 6px;
+  border: 3px solid rgba(134, 200, 226, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text{
+    color: #01133B;
+    font-family: "Roboto Medium";
+    font-size: 20px;
+    width: 140px;
+  }
+}
+.active-maket-btn{
+  background: linear-gradient(45deg, rgba(96,74,244,1) 0%, rgba(72,242,250,1) 100%);
+  border: none;
+
+  .text{
+    color: #fff;
+  }
+}

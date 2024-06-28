@@ -1,0 +1,68 @@
+.instruction-wrapper{
+  padding: 0 40px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  color: #01133B;
+  .instruction-caption{
+    font-family: "IBM Plex Mono SemiBold";
+    font-size: 62px;
+    line-height: 72px;
+    text-transform: uppercase;
+  }
+  .cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .instruction-card{
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding: 60px 40px;
+      background: #F1F4F9;
+
+      .circle{
+        height: 32px;
+        width: 32px;
+        background: linear-gradient(45deg, rgba(96,74,244,1) 0%, rgba(72,242,250,1) 100%);
+        border-radius: 50%;
+      }
+      .card-caption{
+        font-family: "IBM Plex Mono SemiBold";
+        font-size: 50px;
+        line-height: 62px;
+      }
+      .card-text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .sep-line{
+          width: 100%;
+          border-bottom: 1px solid rgba(1, 19, 59, 0.1);
+        }
+        .list-wrapper{
+          padding-left: 30px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          .sep-line{
+            margin-left: -30px;
+          }
+          .list-item{
+            font-family: "Roboto Regular";
+            font-size: 24px;
+          }
+        }
+        .list-caption{
+          font-family: "Roboto Regular";
+          font-weight: bold;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.animal-page-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0 40px 70px;
+
+  .animal-card{
+    border-radius: 26px;
+    background: #F1F4F9;
+    padding: 80px;
+
+    .animal-img{
+      height: 508px;
+      width: 508px;
+      border-radius: 26px;
+    }
+
+    .card-header{
+      display: flex;
+      justify-content: space-between;
+      .description{
+        .animal-name{
+          font-family: "IBM Plex Mono SemiBold";
+          font-size: 52px;
+          line-height: 72px;
+          text-transform: uppercase;
+        }
+        .caption{
+          font-family: "Roboto Medium";
+          font-size: 32px;
+          line-height: 72px;
+          color: rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+
+    .card-main{
+      margin-top: 60px;
+      display: flex;
+      .information{
+        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .text{
+          font-family: "Roboto Regular";
+          font-size: 18px;
+          color: #1E1E1E;
+          line-height: 30px;
+
+          span{
+            font-weight: bold;
+          }
+        }
+        .bold{
+          font-family: "Roboto Medium";
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}
