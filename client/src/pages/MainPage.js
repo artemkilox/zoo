@@ -27,11 +27,6 @@ const MainPage = () => {
                     route={ABOUT_ROUTE}
                 />
                 <MainMenuBtn
-                    text="Галерея"
-                    active={false}
-                    route={""}
-                />
-                <MainMenuBtn
                     text="Интерактивный макет"
                     active={true}
                     route={MAP_ROUTE}

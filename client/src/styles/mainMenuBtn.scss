@@ -1,6 +1,6 @@
 .main-menu-btn{
   height: 600px;
-  width: 600px;
+  width: 100%;
   border: 5px solid #D9DEED;
   background: #F1F4F9;
   border-radius: 24px;
@@ -24,7 +24,7 @@
     font-family: "Roboto Regular";
     color: #01133B;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from "../components/Header";
 import BackBtn from "../components/BackBtn";
 import {MAIN_PAGE_ROUTE} from "../utils/consts";
@@ -7,6 +7,20 @@ import '../styles/mapPage.css'
 import MapComponent from "../components/MapComponent";
 
 const Map = () => {
+    const [radio, setRadio] = useState([1, 0, 0])
+
+    const radioSelect = (index) => {
+        let arr = [0, 0, 0]
+        for(let i = 0; i < arr.length; i++){
+            if(i === index){
+                arr[i] = 1
+            } else {
+                arr[i] = 0
+            }
+        }
+        setRadio(arr)
+    }
+
     return (
         <div className="map-container">
             <section className="sidebar">
@@ -22,16 +36,22 @@ const Map = () => {
                 </div>
                 <div className="btn-wrapper">
                     <MaketBtn
-                        active={true}
+                        active={radio[0] === 1}
                         text="Динамическая подсветка"
+                        action={radioSelect}
+                        index={0}
                     />
                     <MaketBtn
-                        active={false}
+                        active={radio[1] === 1}
                         text="Уличная подсветка"
+                        action={radioSelect}
+                        index={1}
                     />
                     <MaketBtn
-                        active={false}
+                        active={radio[2] === 1}
                         text="Подсветка всех зон"
+                        action={radioSelect}
+                        index={2}
                     />
                 </div>
             </section>

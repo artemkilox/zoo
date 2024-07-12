@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import {data} from "../data/data";
 import Header from "../components/Header";
 import {MAIN_PAGE_ROUTE, MAP_ROUTE, SECTION_ROUTE} from "../utils/consts";
@@ -11,8 +11,8 @@ const AnimalPage = () => {
 
     const location = window.location.pathname
     const animalId = location.split('/')[2]
-
     const animal = data[Number(animalId) - 1]
+    const soundRef = useRef()
 
     return (
         <div className="animal-page-wrapper">
@@ -30,7 +30,12 @@ const AnimalPage = () => {
                             {animal.caption}
                         </div>
                     </div>
-                    <SoundBtn/>
+                    {
+                        animal.speaker ?
+                            <SoundBtn
+                                audio={animal.speaker}
+                            /> : <div></div>
+                    }
                 </div>
                 <div className="card-main">
                     <img className="animal-img" src={animal.img} alt=""/>

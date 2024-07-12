@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/maketBtn.css'
 
-const MaketBtn = ({active, text, action}) => {
+const MaketBtn = ({active, text, action, index}) => {
 
     const clickHandler = () => {
-        console.log(action)
+        action(index)
     }
 
     return (

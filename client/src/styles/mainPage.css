@@ -22,6 +22,7 @@
 }
 .main-page-container .btn-wrapper {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
 }
 

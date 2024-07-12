@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1254 523" style="enable-background:new 0 0 1254 523;" xml:space="preserve">
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D8F3FE;}
 	.st1{fill:url(#SVGID_1_);}
 	.st2{fill:#FFFFFF;}
 </style>
 <g>
-	<circle class="st0" cx="780.5" cy="328.5" r="25"/>
+	<circle class="st0" cx="25" cy="25" r="25"/>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="800.4795" y1="584.5205" x2="760.4795" y2="624.5205" gradientTransform="matrix(1 0 0 1 0 -276)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="44.9795" y1="-364.0205" x2="4.9795" y2="-404.0205" gradientTransform="matrix(1 0 0 -1 0 -359)">
 		<stop  offset="0" style="stop-color:#48F2FA"/>
 		<stop  offset="1" style="stop-color:#604AF4"/>
 	</linearGradient>
-	<circle class="st1" cx="780.5" cy="328.5" r="20"/>
-	<path class="st2" d="M780.2,322.2c-0.7-0.1-1.4-0.2-2.1-0.2c-3.4,0-6.3,2.3-9,4.3c-1.8,1.3-3.5,3.2-2.2,5c0,0.1,0.2,0.1,0.2,0
+	<circle class="st1" cx="25" cy="25" r="20"/>
+	<path class="st2" d="M24.7,18.7c-0.7-0.1-1.4-0.2-2.1-0.2c-3.4,0-6.3,2.3-9,4.3c-1.8,1.3-3.5,3.2-2.2,5c0,0.1,0.2,0.1,0.2,0
 		l0.3-0.9c0-0.1,0.2-0.1,0.2,0l0.5,1.3c0,0.1,0.2,0.1,0.2,0l0.4-1.1c0-0.1,0.1-0.1,0.2,0l0.8,1.2c0,0.1,0.1,0.1,0.2,0
-		c0.5-1.2,1-2,2.4-2.6c-0.3,1.3-0.2,2.2,0.5,3.3c0.2,0.3,0.5,0.5,0.8,0.5h3.9c0.1-0.1,0.1-0.2,0.1-0.4c0-0.6-0.7-0.9-1.3-1
+		c0.5-1.2,1-2,2.4-2.6c-0.3,1.3-0.2,2.2,0.5,3.3c0.2,0.3,0.5,0.5,0.8,0.5H22c0.1-0.1,0.1-0.2,0.1-0.4c0-0.6-0.7-0.9-1.3-1
 		c-0.1,0-0.1,0-0.2,0c-0.7-0.2-0.5-1.1,0.1-1.5c0.7-0.5,1-1.2,1-2.4c1.6,0.4,2.3,0.8,4.2,0.8c-0.7,1.5-0.6,2.3-0.2,3.8
 		c0.1,0.4,0.5,0.8,1,0.8h5.7c0.2-0.5-0.1-1-0.5-1.3c-0.9-0.1-1.8-0.4-2.1-1c-0.7-1.1,1-2.2,2.3-2.2c4.9-0.3,8.5-0.1,7-1.9
-		c-2.3-2.5-4.5-3.5-8.9-3.7C783.9,322.8,782,322.5,780.2,322.2z"/>
+		c-2.3-2.5-4.5-3.5-8.9-3.7C28.4,19.3,26.5,19,24.7,18.7z"/>
 </g>
 </svg>
