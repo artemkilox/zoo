@@ -2,13 +2,16 @@ import React from 'react';
 import {useNavigate} from "react-router-dom";
 import arrow from "../img/icons/arrow.svg";
 import '../styles/backBtn.css'
+import {$host} from "../http";
 
 const BackBtn = ({route}) => {
 
     const navigate = useNavigate()
+    const close = "closeAnimal"
 
     const clickHandler = () => {
         navigate(route)
+        $host.post('/', {animal: close})
     }
 
     return (

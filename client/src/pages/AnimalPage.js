@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {data} from "../data/data";
 import Header from "../components/Header";
 import {MAIN_PAGE_ROUTE, MAP_ROUTE, SECTION_ROUTE} from "../utils/consts";
@@ -6,6 +6,7 @@ import BackBtn from "../components/BackBtn";
 import SoundBtn from "../components/SoundBtn";
 import '../styles/animalPage.css'
 import TextItem from "../components/TextItem";
+import {$host} from "../http";
 
 const AnimalPage = () => {
 
@@ -13,6 +14,10 @@ const AnimalPage = () => {
     const animalId = location.split('/')[2]
     const animal = data[Number(animalId) - 1]
     const soundRef = useRef()
+
+    useEffect(() => {
+        $host.post('/', {animal: animal.name})
+    }, [])
 
     return (
         <div className="animal-page-wrapper">

@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/maketBtn.css'
+import {$host} from "../http";
 
 const MaketBtn = ({active, text, action, index}) => {
 
     const clickHandler = () => {
         action(index)
+        $host.post('/', {animal: text})
     }
 
     return (
