@@ -34,7 +34,9 @@ const MapComponent = () => {
                     className="map-item"
                     style={scale === 0 ? {border: 'none'} : scale === 1 ? {transform: 'scale(1.2)'} : scale === 2 ? {transform: 'scale(1.4)'} : {border: 'none'}}
                 >
-                    <img className="map-point" src={mapImg} alt=""/>
+                    <div className="map-point">
+                        <img src={mapImg} alt=""/>
+                    </div>
                     {
                         animals.map(animal =>
                             animal.icon === 0 ? <div key={animal.id}></div> :

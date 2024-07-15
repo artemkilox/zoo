@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 60px;
+  background: #F1F4F9;
 }
 .map-section .heading {
   display: flex;
@@ -17,9 +18,13 @@
 .map-section .map-section .map-item {
   width: 100%;
   height: 500px;
+  transition: 0.2s;
 }
 .map-section .map-section .map-item .map-point {
   position: fixed;
+}
+.map-section .map-section .map-item .map-point img {
+  width: 1324px;
 }
 .map-section .map-section .map-item .map-section-point {
   position: fixed;
