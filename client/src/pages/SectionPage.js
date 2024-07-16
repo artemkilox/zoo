@@ -6,6 +6,8 @@ import {ANIMAL_ROUTE, MAIN_PAGE_ROUTE, MAP_ROUTE} from "../utils/consts";
 import arrow from '../img/icons/forwardArrow.svg'
 import '../styles/sectionPage.css'
 import {useNavigate} from "react-router-dom";
+import {useEffect} from "@types/react";
+import {$host} from "../http";
 
 const SectionPage = () => {
 
@@ -18,6 +20,10 @@ const SectionPage = () => {
     // const sectionId = 0
     const section = sections[sectionId]
     const animals = data.filter(item => item.heading === section.id)
+
+    useEffect(() => {
+        $host.post('/', {animal: section.name})
+    }, [])
 
     // console.log(animals)
 
