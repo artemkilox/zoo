@@ -1,0 +1,30 @@
+.zone-page{
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+  gap: 60px;
+
+
+  .zones-description{
+
+
+    .zones-title{
+      font-family: 'IBMPlexMono';
+      font-size: 62px;
+      color: #01133B;
+      text-transform: uppercase;
+    }
+    .zones-caption{
+      font-family: 'IBMPlexMono';
+      font-size: 30px;
+      color: #01133B;
+      opacity: 60%;
+      text-transform: uppercase;
+    }
+  }
+  .zones-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -6,7 +6,7 @@ import {ANIMAL_ROUTE, MAIN_PAGE_ROUTE, MAP_ROUTE} from "../utils/consts";
 import arrow from '../img/icons/forwardArrow.svg'
 import '../styles/sectionPage.css'
 import {useNavigate} from "react-router-dom";
-import {useEffect} from "@types/react";
+import {useEffect} from "react";
 import {$host} from "../http";
 
 const SectionPage = () => {

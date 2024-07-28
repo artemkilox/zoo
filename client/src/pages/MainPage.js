@@ -2,7 +2,7 @@ import React from 'react';
 import InstructionBtn from "../components/InstructionBtn";
 import MainMenuBtn from "../components/MainMenuBtn";
 import Logo from "../components/Logo";
-import {ABOUT_ROUTE, MAP_ROUTE} from "../utils/consts";
+import {ABOUT_ROUTE, MAP_ROUTE, ZONE_ROUTE} from "../utils/consts";
 import '../styles/mainPage.css'
 
 const MainPage = () => {
@@ -25,6 +25,11 @@ const MainPage = () => {
                     text="О проекте"
                     active={false}
                     route={ABOUT_ROUTE}
+                />
+                <MainMenuBtn
+                    text="Зоны парка"
+                    active={false}
+                    route={ZONE_ROUTE}
                 />
                 <MainMenuBtn
                     text="Интерактивный макет"
